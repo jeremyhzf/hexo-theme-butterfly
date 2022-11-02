@@ -18,6 +18,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
 
     if page.type !== '404'
       #body-wrap(class=pageType)
+        //- 头部布局
         include ./header/index.pug
 
         main#content-inner.layout(class=hideAside)
